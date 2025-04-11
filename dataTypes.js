@@ -7,8 +7,8 @@ const person = {
   lastName: "Powell",
 };
 
-function sayHello(person){
-    console.log("Hello" + person.name);
+function sayHello(person) {
+  console.log("Hello" + person.name);
 }
 
 console.log("--typeof--");

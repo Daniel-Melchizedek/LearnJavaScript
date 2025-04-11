@@ -1,8 +1,7 @@
 //Function definition
-function _$printHello1(name)
-{
-    console.log(`Hello ${name}`);
-    return `name hello`;
+function _$printHello1(name) {
+  console.log(`Hello ${name}`);
+  return `name hello`;
 }
 console.log(typeof _$printHello1);
 //Function invocation
