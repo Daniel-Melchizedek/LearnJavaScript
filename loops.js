@@ -10,6 +10,10 @@ while (whileIndex < names.length) {
 console.log("--for loop--");
 
 for (let forIndex = 0; forIndex < names.length; forIndex++) {
+  /**
+   * Represents a name from an array of names.
+   * @type {string}
+   */
   const name = names[forIndex];
   console.log(name);
 }
