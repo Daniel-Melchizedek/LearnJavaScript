@@ -2,6 +2,10 @@ const names = ["Justin", "Burke", "Sarah"];
 console.log("--while loop--");
 let whileIndex = 0;
 while (whileIndex < names.length) {
+  /**
+   * Represents a name retrieved from an array of names.
+   * @type {string}
+   */
   const name = names[whileIndex];
   console.log(name);
   whileIndex++;
